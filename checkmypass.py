@@ -39,5 +39,5 @@ def main(file):
 	except AttributeError as err:
 		err
 if __name__ == '__main__':
-	# read pw from text file or excel 
+	# read passwords from Database 
 	main(sys.argv[1])
